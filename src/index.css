@@ -1,0 +1,70 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+
+.home {
+    height: 100%;
+    width: 100%;
+}
+
+.select-panel {
+    width: 100%;
+    height: 50px;
+}
+
+.selector {
+    width: 10%;
+    height: 30px;
+    margin: 10px 45%;
+}
+
+.map-panel {
+    width: 100%;
+    height: calc(100% - 50px);
+}
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.leaflet-interactive {
+    cursor: pointer;
+}
+
+
+.divicon {
+    margin-left: -5px;
+    margin-top: -5px;
+    width: 10px !important;
+    height: 10px !important;
+    transform: translate3d(554px, 255px, 0px);
+    z-index: 255;
+    border-radius: 100%;
+    background-color: #3282a5;
+}
